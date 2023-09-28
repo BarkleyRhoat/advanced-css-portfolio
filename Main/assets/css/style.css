@@ -1,3 +1,9 @@
+:root {
+    --dark: #ae6451;
+    --light: #519BAE;
+    --text-color: white;
+}
+
 * {
     box-sizing: border-box;
     padding: 0;
@@ -35,6 +41,11 @@ header nav ul li {
     display: inline-block;
     justify-content: space-evenly;
     margin-left: 25px;
+
+}
+
+nav a:hover {
+    color: white;
 }
 
 a {
