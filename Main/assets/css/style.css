@@ -46,14 +46,14 @@ p {
     font-size: 14px;
 }
 
-.hero {
+/* .hero {
     height: 800px;
     width: 100%;
     margin-bottom: 50px;
     background-image: url(../images/background.jpg);
     background-size: cover;
     background-position: center;
-}
+} */
 
 .box {
 display: flex;
@@ -67,10 +67,18 @@ background-color: #519BAE;
 color: white;
 }
 
+figure h3 {
+    position: absolute;
+    ;
+}
+
 #box1 {
     border-left: #ae6451 solid 400px;
     display: flex;
     text-align: center;
+    /* position: top ; */
+    margin-top: 60px;
+    position: relative;
 
 
 
@@ -78,8 +86,12 @@ color: white;
 
 #box1 img {
     display: flex;
-    padding: 5px
+    padding: 5px;
+    transform: rotate(340deg);
+    
 }
+
+
 
 
 
