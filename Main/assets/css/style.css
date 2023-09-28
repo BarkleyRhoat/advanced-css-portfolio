@@ -54,7 +54,7 @@ a {
 } 
 
 p {
-    font-size: 14px;
+    font-size: 24px;
 }
 
 /* .hero {
@@ -80,7 +80,8 @@ color: white;
 
 figure h3 {
     position: absolute;
-    ;
+    font-size: 40px;
+    /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
 }
 
 #box1 {
@@ -97,8 +98,12 @@ figure h3 {
 
 #box1 img {
     display: flex;
-    padding: 5px;
+    padding-bottom: 100px;
     transform: rotate(340deg);
+    height: 350px;
+    position: relative;
+
+
     
 }
 
