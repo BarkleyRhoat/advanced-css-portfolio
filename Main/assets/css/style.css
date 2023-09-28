@@ -31,7 +31,9 @@ header nav {
 
 
 header nav ul li {
+    display: flex;
     display: inline-block;
+    justify-content: space-evenly;
     margin-left: 25px;
 }
 
@@ -43,6 +45,43 @@ a {
 p {
     font-size: 14px;
 }
+
+.hero {
+    height: 800px;
+    width: 100%;
+    margin-bottom: 50px;
+    background-image: url(../images/background.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.box {
+display: flex;
+text-align: right;
+text-wrap: wrap;
+margin-bottom: 60px;
+padding: 40px;
+height: 300px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+background-color: #519BAE;
+color: white;
+}
+
+#box1 {
+    border-left: #ae6451 solid 400px;
+    display: flex;
+    text-align: center;
+
+
+
+}
+
+#box1 img {
+    display: flex;
+    padding: 5px
+}
+
+
 
 
 
