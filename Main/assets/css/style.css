@@ -1,7 +1,7 @@
 :root {
-    --dark: #ae6451;
-    --light: #519BAE;
-    --text-color: white;
+    --dark: ;
+    --light: ;
+    --text-color: #524543;
 }
 
 * {
@@ -11,14 +11,14 @@
 }
 
 body {
-    background-color: #ae6451;
+    background-color: #A69C97;
 }
 
 header {
     padding: 20px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    background-color: #519BAE;
-    color: white;
+    background-color:#988A95;
+    color: #524543;
 }
 
 header h1 {
@@ -45,11 +45,11 @@ header nav ul li {
 }
 
 nav a:hover {
-    color: white;
+    color: #C2856C;
 }
 
 a {
-    color: #ae6451;
+    color: #524543;
     text-decoration: none;
 } 
 
@@ -57,15 +57,25 @@ p {
     font-size: 24px;
 }
 
-/* .hero {
-    height: 800px;
+.hero {
+    height: 400px;
     width: 100%;
     margin-bottom: 50px;
-    background-image: url(../images/background.jpg);
+    background-image: url(../images/sunsetbackground.JPG);
     background-size: cover;
     background-position: center;
-} */
+    border: #C2856C 10px solid;
+}
 
+#parent {
+    display: flex;
+}
+
+.h3 {
+   display: flex;
+   flex-direction: column;
+    justify-content: space-around;
+}
 .box {
 display: flex;
 text-align: right;
@@ -74,8 +84,8 @@ margin-bottom: 60px;
 padding: 40px;
 height: 300px;
 font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-background-color: #519BAE;
-color: white;
+background-color:#988A95 ;
+color: #524543;
 }
 
 figure h3 {
@@ -85,14 +95,12 @@ figure h3 {
 }
 
 #box1 {
-    border-left: #ae6451 solid 400px;
+    border-left:  #A69C97 solid 400px;
     display: flex;
     text-align: center;
     /* position: top ; */
     margin-top: 60px;
     position: relative;
-
-
 
 }
 
@@ -105,6 +113,35 @@ figure h3 {
 
 
     
+}
+
+.h3 {
+    border: #C2856C 5px solid;
+    display: flex;
+    
+
+}
+
+#box2 {
+    border-left:  #A69C97 solid 400px;
+    display: flex;
+    text-align: center;
+    /* position: top ; */
+    margin-top: 60px;
+    position: relative;
+}
+
+#box3 {
+    border-left:  #A69C97 solid 400px;
+    display: flex;
+    text-align: center;
+    /* position: top ; */
+    margin-top: 60px;
+    position: relative;
+}
+
+#box4 {
+  
 }
 
 
