@@ -21,6 +21,7 @@ header {
     color: #524543;
     display: flex;
     
+    
 }
 
 header h1 {
@@ -37,6 +38,7 @@ header nav {
     font-size: 35px;
     display: flex;
     justify-content: space-around;
+    margin-left: 850px;
 
 
 }
@@ -170,6 +172,10 @@ figure h3 {
     
 }
 
+#refactoring-hover:hover {
+    
+}
+
 #box3 {
     border-left:  #A69C97 solid 300px;
     display: flex;
@@ -199,7 +205,7 @@ figure h3 {
 @media screen and (max-width: 480px) {
     .hero {
         display: flex;
-        object-fit: ;
+       
     }
     
 }
