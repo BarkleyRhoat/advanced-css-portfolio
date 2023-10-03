@@ -19,13 +19,11 @@ https://barkleyrhoat.github.io/advanced-css-portfolio/
 
 to access this website you will click the link in github or type in the url address ""
 
-![screenshot]()
+![screenshot](./Main/assets/images/challenge2screenshot.png)
 
-![screenshot](.)
+![screenshot](./Main/assets/images/challenge2screenshot1.png)
 
 ## Credits
-
- code provided by UPENN BootCamp throughout thie course  (https://git.bootcampcontent.com/University-of-Pennsylvania/UPENN-VIRT-FSF-PT-09-2023-U-LOLC#login-pane  )
 
 Referenced: MDN Web Docs - Link (https://developer.mozilla.org/en-US/docs/Web/CSS , https://developer.mozilla.org/en-US/docs/Web/HTML)
 
